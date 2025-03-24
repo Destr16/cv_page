@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>CV page</title>
+    </head>
+    <body>
+        <header class="header">
+            <img src="./img/1.png" class="avatar" alt="avatar" />
+            <h1 class="header_title">Annubis | CV</h1>
+            <h2 class="header_subtitle">Frontend Devoloper</h2>
+        </header>
+
+        <main>
+            <section class="skills">
+                <h3>Skills</h3>
+                <details>
+                    <summary>Skill list:</summary>
+                    <ul>
+                        <li>1. HTML</li>
+                        <li>2. CSS</li>
+                        <li>3. Java Script</li>
+                        <li>Node.js</li>
+                        <li>React</li>
+                    </ul>
+                </details>
+            </section>
+
+            <article>
+                <h4>Short article about me</h4>
+                <p>
+                    Далеко-далеко за словесными горами в стране гласных и
+                    согласных живут рыбные тексты. Назад текст вопроса,
+                    семантика, инициал грустный подзаголовок возвращайся свой
+                    напоивший текстов сбить живет щеке деревни журчит коварных
+                    пустился выйти своего безорфографичный знаках? Безопасную
+                    скатился, большой коварный продолжил бросил запятой
+                    курсивных то злых предупреждал заголовок дороге ручеек
+                    силуэт, маленькая там? Там.
+                </p>
+            </article>
+
+            <section class="gallery">
+                <h3>Gallery</h3>
+                <img src="./img/2.jpg" alt="image" />
+                <img src="./img/3.jpg" alt="image" />
+                <img src="./img/4.jpg" alt="image" />
+            </section>
+
+            <hr class="separator" />
+
+            <section>
+                <video class="video" controls>
+                    <source src="./video/video--02.mp4" type="video/mp4" />
+                </video>
+            </section>
+
+            <section class="hobbies">
+                <h4>My hobbies</h4>
+                <details>
+                    <summary>Hobbies</summary>
+                    <ul>
+                        <li>Skills</li>
+                        <li>Video editing</li>
+                        <li>Audio books</li>
+                    </ul>
+                </details>
+            </section>
+
+            <hr class="separator" />
+
+            <section class="ed">
+                <table class="ed_table">
+                    <thead>
+                        <tr>
+                            <th>School / University</th>
+                            <th>Profesion</th>
+                            <th>Year</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>IT school 1</td>
+                            <td>Angular def</td>
+                            <td>2019</td>
+                        </tr>
+                        <tr>
+                            <td>IT school 2</td>
+                            <td>React def</td>
+                            <td>2020</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section class="quate">
+                <blockquote>
+                    Действие - это единственный путь к успеху
+                </blockquote>
+            </section>
+
+            <section class="interaction">
+                <form
+                    action="google.com"
+                    class="form"
+                    method="get"
+                    target="_blank"
+                >
+                    <fieldset>
+                        <legend>Required fields</legend>
+                        <label for="firstName-id">First Name</label>
+                        <input
+                            type="text"
+                            class="form_control"
+                            name="firstName"
+                            id="firstName-id"
+                            placeholder="First Name"
+                        />
+
+                        <label for="lastName-id">Last Name</label>
+                        <input
+                            type="text"
+                            class="form_control"
+                            name="lastName"
+                            id="lastName-id"
+                            placeholder="Last Name"
+                        />
+
+                        <label for="email-id">Email</label>
+                        <input
+                            type="text"
+                            class="form_control"
+                            name="email"
+                            id="email-id"
+                            placeholder="Email"
+                        />
+                    </fieldset>
+
+                    <br />
+                    <textarea
+                        placeholder="your question"
+                        class="form_control contol_textarea"
+                    ></textarea>
+
+                    <br />
+                    <button class="form_submit" type="submit">Submit</button>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <address class="address">
+                <a href="#" class="contact_link">my@email.com</a>
+                <a href="tel:+380000000" class="contact_num">+380000000</a>
+            </address>
+        </footer>
+    </body>
+</html>
